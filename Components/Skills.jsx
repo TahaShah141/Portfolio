@@ -79,7 +79,7 @@ export const Skills = () => {
   return (
     <div className="flex flex-col gap-4" id="skills">
       <h2 className="text-white text-3xl font-bold border-b-2 border-white w-max mx-auto p-2">My SkillSet</h2>
-      <div className="grid justify-center items-center gap-4 p-4 grid-cols-1 min-[400px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+      <div className="grid justify-center items-center gap-4 sm:p-2 grid-cols-1 min-[400px]:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
         {skills.map(skill => <SkillCard skill={skill} key={skill.name} />)}
       </div>
     </div>

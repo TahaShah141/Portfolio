@@ -10,7 +10,7 @@ export const Projects = () => {
   return (
     <div className="flex flex-col gap-2" id="projects">
       <h2 className="text-white text-3xl font-bold border-b-2 border-white w-max mx-auto p-2">Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-12 py-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-2 md:px-12 xsm:p-6">
         {projects.map(project => <ProjectCard project={project} key={project.name} />)}
         {projects.map(project => <ProjectCard project={project} key={project.name} />)}
         {projects.map(project => <ProjectCard project={project} key={project.name} />)}

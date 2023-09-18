@@ -27,7 +27,7 @@ export const Contact = () => {
         {links}
       </div>
       <div className="flex flex-col gap-3 p-4 px-16 md:hidden">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between flex-col gap-4 min-[450px]:flex-row items-center">
           <div className="text-white">
             <svg viewBox="0 0 28 12" className="w-36" ><path d="M2 2 13 2 12 3 3 3 2 2M7 3 7 10 8 10 8 3M8 10 11 4 14 10 15 6 19 5 20 2 20 10 23 4 26 10 25 10 23 6 21 10 19 10 19 6 16 7 15 10 13 10 11 6 9 10 7 10Z" fill="currentColor"></path></svg>
           </div>

@@ -6,7 +6,11 @@ export default {
     "./Components/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'xsm': '350px'
+      }
+    },
   },
   plugins: [],
 }
