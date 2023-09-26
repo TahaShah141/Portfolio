@@ -13,9 +13,9 @@ export const Projects = () => {
       desc: "Poke-memo was my first project using the React. It is a memory-based game about pokemon you have already selected before. If you 'Catch-em-all!!', you win the game. It is a basic demo of how React can make repetitive components easy with the integration of javascript and html in one place"
     },
     {
-      name: "Coming Soon",
-      link: "#",
-      desc: "As a fresh full-stack developer, I have a lot to learn and grow. I am constantly working on new projects to showcase my skills, this portfolio being the latest. Soon there will be a project here worth show-casing some aspect of my skill-set, maybe it could be one of the projects you ask me to build."
+      name: "Battle Ship",
+      link: "https://battleship141.netlify.app",
+      desc: "Battleship was my first project using DOM-manipulation and vanilla CSS. It is a game where two players try to sink each other's ships by hitting a grid/board. A hit grants you another turn while a miss switches to the other player. Be the first to sink all the ships to win."
     },
     {
       name: "Coming Soon",
