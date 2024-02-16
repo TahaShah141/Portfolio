@@ -3,19 +3,19 @@ import { ProjectCard } from "./ProjectCard"
 export const Projects = () => {
   const projects = [
     {
+      name: "Games",
+      link: "https://games-tahashah.netlify.app",
+      desc: "I have made this website to host the various games I have made and more that I will be making in the future. All the games share the same connection architecture and backend server, Thus encouraging reusability of components and logic."
+    },
+    {
+      name: "WaveGen",
+      link: "https://wavegen.netlify.app",
+      desc: "WaveGen allows the user to design and create their own custom-made tiles using a pixelated drawing board. Then the user defines how their tiles will connect with one another. Finally with the help of wave function collapse algorithm, they can generate randomized but orderly images using their tiles as building blocks"
+    },
+    {
       name: "Board-em",
       link: "https://boardem141.netlify.app",
       desc: "Board-em was my first project using the MERN stack. It is basically a mix between email and X (Twitter) with both a public and private side. I got the opportunity to learn a lot from developing this website about authentication and data handling and how to make a website responsive to data changes."
-    },
-    {
-      name: "Poke-memo",
-      link: "https://poke-memo141.netlify.app",
-      desc: "Poke-memo was my first project using the React. It is a memory-based game about pokemon you have already selected before. If you 'Catch-em-all!!', you win the game. It is a basic demo of how React can make repetitive components easy with the integration of javascript and html in one place"
-    },
-    {
-      name: "Battle Ship",
-      link: "https://battleship141.netlify.app",
-      desc: "Battleship was my first project using DOM-manipulation and vanilla CSS. It is a game where two players try to sink each other's ships by hitting a grid/board. A hit grants you another turn while a miss switches to the other player. Be the first to sink all the ships to win."
     },
     {
       name: "Coming Soon",

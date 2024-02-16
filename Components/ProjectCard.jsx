@@ -1,4 +1,3 @@
-import '../styles/shadows.css'
 
 export const ProjectCard = ({project}) => {
 
